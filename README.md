@@ -1,2 +1,2 @@
-# laboratorio.contelldontask
-Aplicamos el refactoring para cumplir con el principio "Tell, Don't Ask" de O.O.
+# Laboratorio.ConTellDontAsk
+Este laboratorio nos permite practicar principio de Tell, Don't Ask de la orientación a objetos.

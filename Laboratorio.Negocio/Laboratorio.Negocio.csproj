@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{36C74C17-818C-4788-8380-D6C41CF64784}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Laboratorio.Negocio</RootNamespace>
+    <AssemblyName>Laboratorio.Negocio</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="1 Valoraciones\5 Con tell dont ask\Monedas.cs" />
+    <Compile Include="1 Valoraciones\5 Con tell dont ask\MontoDeLaValoracionEnColones.cs" />
+    <Compile Include="1 Valoraciones\5 Con tell dont ask\MontoSinRedondear.cs" />
+    <Compile Include="1 Valoraciones\5 Con tell dont ask\Parameter Objects\DatosDeLaValoracionEnColones.cs" />
+    <Compile Include="1 Valoraciones\5 Con tell dont ask\ValorDeMercado.cs" />
+    <Compile Include="1 Valoraciones\4 Con parameter object\Parameter Objects\DatosDeLaValoracionEnColones.cs" />
+    <Compile Include="1 Valoraciones\4 Con parameter object\Monedas.cs" />
+    <Compile Include="1 Valoraciones\4 Con parameter object\MontoDeLaValoracionEnColones.cs" />
+    <Compile Include="1 Valoraciones\4 Con parameter object\MontoSinRedondear.cs" />
+    <Compile Include="1 Valoraciones\4 Con parameter object\ValorDeMercado.cs" />
+    <Compile Include="1 Valoraciones\3 Con objetos\Monedas.cs" />
+    <Compile Include="1 Valoraciones\3 Con objetos\MontoDeLaValoracionEnColones.cs" />
+    <Compile Include="1 Valoraciones\3 Con objetos\MontoSinRedondear.cs" />
+    <Compile Include="1 Valoraciones\3 Con objetos\ValorDeMercado.cs" />
+    <Compile Include="2 CodigosDeReferencia\5 Con tell dont ask\AñoAjustado.cs" />
+    <Compile Include="2 CodigosDeReferencia\5 Con tell dont ask\DiaAjustado.cs" />
+    <Compile Include="2 CodigosDeReferencia\5 Con tell dont ask\FechaFormateada.cs" />
+    <Compile Include="2 CodigosDeReferencia\5 Con tell dont ask\MesAjustado.cs" />
+    <Compile Include="2 CodigosDeReferencia\5 Con tell dont ask\Parameter Objects\DatosDelRequerimiento.cs" />
+    <Compile Include="2 CodigosDeReferencia\5 Con tell dont ask\Requerimiento.cs" />
+    <Compile Include="2 CodigosDeReferencia\4 Con parameter object\AñoAjustado.cs" />
+    <Compile Include="2 CodigosDeReferencia\4 Con parameter object\Parameter Objects\DatosDelRequerimiento.cs" />
+    <Compile Include="2 CodigosDeReferencia\4 Con parameter object\DiaAjustado.cs" />
+    <Compile Include="2 CodigosDeReferencia\4 Con parameter object\FechaFormateada.cs" />
+    <Compile Include="2 CodigosDeReferencia\4 Con parameter object\MesAjustado.cs" />
+    <Compile Include="2 CodigosDeReferencia\4 Con parameter object\Requerimiento.cs" />
+    <Compile Include="2 CodigosDeReferencia\3 Con objetos\AñoAjustado.cs" />
+    <Compile Include="2 CodigosDeReferencia\3 Con objetos\DiaAjustado.cs" />
+    <Compile Include="2 CodigosDeReferencia\3 Con objetos\FechaFormateada.cs" />
+    <Compile Include="2 CodigosDeReferencia\2 Con funciones\GeneracionDeCodigoDeReferencia.cs" />
+    <Compile Include="2 CodigosDeReferencia\3 Con objetos\MesAjustado.cs" />
+    <Compile Include="2 CodigosDeReferencia\3 Con objetos\Requerimiento.cs" />
+    <Compile Include="3 Rendimientos por descuento\2 Con funciones\CalculosDeRendimiento.cs" />
+    <Compile Include="3 Rendimientos por descuento\1 Como un procedimiento\CalculosDeRendimiento.cs" />
+    <Compile Include="2 CodigosDeReferencia\1 Como un procedimiento\GeneracionDeCodigoDeReferencia.cs" />
+    <Compile Include="1 Valoraciones\2 Con funciones\CalculosDeLaValoracion.cs" />
+    <Compile Include="1 Valoraciones\2 Con funciones\Monedas.cs" />
+    <Compile Include="1 Valoraciones\1 Como un procedimiento\CalculosDeLaValoracion.cs" />
+    <Compile Include="1 Valoraciones\1 Como un procedimiento\Monedas.cs" />
+    <Compile Include="3 Rendimientos por descuento\5 Con tell dont ask\DiasAlVencimiento.cs" />
+    <Compile Include="3 Rendimientos por descuento\5 Con tell dont ask\Parameter Objects\DatosDeLaTasaBruta.cs" />
+    <Compile Include="3 Rendimientos por descuento\5 Con tell dont ask\Parameter Objects\DatosDelRendimientoPorDescuento.cs" />
+    <Compile Include="3 Rendimientos por descuento\5 Con tell dont ask\Rendimiento.cs" />
+    <Compile Include="3 Rendimientos por descuento\5 Con tell dont ask\RendimientoPorDescuentoRedondeado.cs" />
+    <Compile Include="3 Rendimientos por descuento\5 Con tell dont ask\TasaBruta.cs" />
+    <Compile Include="3 Rendimientos por descuento\5 Con tell dont ask\ValorTransadoBruto.cs" />
+    <Compile Include="3 Rendimientos por descuento\4 Con parameter object\Parameter Objects\DatosDeLaTasaBruta.cs" />
+    <Compile Include="3 Rendimientos por descuento\4 Con parameter object\Parameter Objects\DatosDelRendimientoPorDescuento.cs" />
+    <Compile Include="3 Rendimientos por descuento\4 Con parameter object\DiasAlVencimiento.cs" />
+    <Compile Include="3 Rendimientos por descuento\4 Con parameter object\Rendimiento.cs" />
+    <Compile Include="3 Rendimientos por descuento\4 Con parameter object\RendimientoPorDescuentoRedondeado.cs" />
+    <Compile Include="3 Rendimientos por descuento\4 Con parameter object\TasaBruta.cs" />
+    <Compile Include="3 Rendimientos por descuento\4 Con parameter object\ValorTransadoBruto.cs" />
+    <Compile Include="3 Rendimientos por descuento\3 Con objetos\DiasAlVencimiento.cs" />
+    <Compile Include="3 Rendimientos por descuento\3 Con objetos\Rendimiento.cs" />
+    <Compile Include="3 Rendimientos por descuento\3 Con objetos\RendimientoPorDescuentoRedondeado.cs" />
+    <Compile Include="3 Rendimientos por descuento\3 Con objetos\TasaBruta.cs" />
+    <Compile Include="3 Rendimientos por descuento\3 Con objetos\ValorTransadoBruto.cs" />
+    <Compile Include="4 Valoraciones por ISIN\1 Como un procedimiento\CalculosDeLaValoracionPorISIN.cs" />
+    <Compile Include="4 Valoraciones por ISIN\1 Como un procedimiento\Monedas.cs" />
+    <Compile Include="4 Valoraciones por ISIN\1 Como un procedimiento\ValoracionPorISIN.cs" />
+    <Compile Include="4 Valoraciones por ISIN\5 Con tell dont ask\DiasAlVencimiento.cs" />
+    <Compile Include="4 Valoraciones por ISIN\5 Con tell dont ask\Monedas.cs" />
+    <Compile Include="4 Valoraciones por ISIN\5 Con tell dont ask\Parameter Objects\DatosDeLaValoracion.cs" />
+    <Compile Include="4 Valoraciones por ISIN\5 Con tell dont ask\PorcentajeDeCobertura.cs" />
+    <Compile Include="4 Valoraciones por ISIN\5 Con tell dont ask\ValoracionPorISIN.cs" />
+    <Compile Include="4 Valoraciones por ISIN\5 Con tell dont ask\ValorDeMercado.cs" />
+    <Compile Include="4 Valoraciones por ISIN\4 Con parameter object\Parameter Objects\DatosDeLaValoracion.cs" />
+    <Compile Include="4 Valoraciones por ISIN\4 Con parameter object\DiasAlVencimiento.cs" />
+    <Compile Include="4 Valoraciones por ISIN\4 Con parameter object\Monedas.cs" />
+    <Compile Include="4 Valoraciones por ISIN\4 Con parameter object\PorcentajeDeCobertura.cs" />
+    <Compile Include="4 Valoraciones por ISIN\4 Con parameter object\ValoracionPorISIN.cs" />
+    <Compile Include="4 Valoraciones por ISIN\4 Con parameter object\ValorDeMercado.cs" />
+    <Compile Include="4 Valoraciones por ISIN\3 Con objetos\Monedas.cs" />
+    <Compile Include="4 Valoraciones por ISIN\3 Con objetos\ValoracionPorISIN.cs" />
+    <Compile Include="4 Valoraciones por ISIN\2 Con funciones\CalculosDeLaValoracionPorISIN.cs" />
+    <Compile Include="4 Valoraciones por ISIN\2 Con funciones\Monedas.cs" />
+    <Compile Include="4 Valoraciones por ISIN\2 Con funciones\ValoracionPorISIN.cs" />
+    <Compile Include="4 Valoraciones por ISIN\3 Con objetos\PorcentajeDeCobertura.cs" />
+    <Compile Include="4 Valoraciones por ISIN\3 Con objetos\DiasAlVencimiento.cs" />
+    <Compile Include="4 Valoraciones por ISIN\3 Con objetos\ValorDeMercado.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
